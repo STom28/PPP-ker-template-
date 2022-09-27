@@ -1,0 +1,221 @@
+body{
+	margin: 0em;
+	background-color: #23621f;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.redes{
+	float: right;
+}
+
+.logo1{
+	margin-top: 20px;
+	z-index: 2;
+	height: 60px;
+	position: absolute;
+	padding-left: 15px;
+}
+
+.nav{
+	position: relative;
+	height: 60px;
+}
+
+header{
+	background-color: #9c9c9c;
+}
+
+.lista {
+	list-style-type: none;
+	margin: 0px;
+	padding: 20px;
+	margin-left: 50px;
+
+	position: relative;
+	padding-top: 10px;
+
+}
+
+.lista a:hover{
+    color: cornflowerblue;
+}
+
+.lista li {
+	float: left;
+	padding: 10px 5px;
+	margin-left: 10px;
+	background-size: cover;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 0px 16px;
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover {
+	color: cornflowerblue;
+}
+
+
+.centrar button{
+	border:3px green outset;
+}
+
+.top2{
+	background-image: url(../multimedia/post3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+	padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.post-list{
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 30px;
+}
+
+.content{
+	border-radius: 6px;
+	width: 1000px;
+	height: 600px;
+	margin:20px;
+	padding-top: 10px;
+	background-color: grey;
+
+}
+
+.content:hover{
+    box-shadow: 0 0.4rem 1rem rgba(0,0,0,0.4)
+}
+
+
+.post-img-1{
+
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	transition: .2s;
+}
+
+
+.post{
+	box-shadow: 0 1px 6px 1px rgba(0, 0, 0, .1s);
+	overflow: hidden;
+	transition: .2s;
+}
+
+.post:hover{
+	transform: translateY(-4);
+	box-shadow: 0 1px 14px 2px rgba(0, 0, 0, .1s);
+}
+
+.post-header{
+	width: 100%;
+	height: 300px;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.post-body{
+	padding: 15px;
+	text-align: center;
+}
+
+.post-body span{
+	display: inline-block;
+	color: #999;
+	margin-bottom: 10px;
+}
+
+.post-body h2{
+	margin-bottom: 15px;
+}
+
+.post-body p{
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.post-body .post-link{
+	display: block;
+	text-decoration: none;
+	padding:10px;
+	background: #2b6ebb;
+	color: #fff;
+	width: 50%;
+	margin:auto;
+	border-radius: 20px;
+	box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .1);
+}
+
+.post-body .post-link:hover{
+	background:#3378c7;
+	box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .2);
+	transform: translateY(-2px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	height: 60px;
+    background-color: #222;
+    color: #fff;
+}
+
+footer section{
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+footer p{
+    margin: 10px;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    border:1px solid #efefef;
+    padding:5px;
+    margin: 5px;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
+
